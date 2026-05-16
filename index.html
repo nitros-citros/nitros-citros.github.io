@@ -3,33 +3,8 @@
     <head>
         <title>Quasar</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="things.css">
     </head>
-    <style>
-        .text {
-            color: white;
-            font-family: 'Lucida Console';
-        }
-        .glow_circle {
-            width: 100px;
-            height: 100px;
-            background-color: white;
-            border-radius: 50%;
-            overflow: hidden;
-            object-fit: cover;
-            box-shadow: 0 0 50px 10px white;
-        }
-        @keyframes spin {
-            from {
-                transform: rotate(0deg);
-            }
-            to {
-                transform: rotate(360deg);
-            }
-        }
-        .rotate {
-            animation: spin 10s linear infinite;
-        }
-    </style>
     <body style="background-image: url('imgs/background.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-position: center;">
         <img src="imgs/quasarIcon.png" width="100px" height="100px" style="float: left;" class="glow_circle rotate">
 
